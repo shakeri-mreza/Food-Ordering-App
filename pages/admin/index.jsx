@@ -131,10 +131,10 @@ export const getServerSideProps = async (ctx) => {
     };
   }
   const productResponse = await axios.get(
-    "https://food-ordering-app-ten.vercel.app//api/products"
+    "https://kookoo-app.vercel.app//api/products"
   );
   const orderResponse = await axios.get(
-    "https://food-ordering-app-ten.vercel.app//api/orders"
+    "https://kookoo-app.vercel.app//api/orders"
   );
 
   return {
