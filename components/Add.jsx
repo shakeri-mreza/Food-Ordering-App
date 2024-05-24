@@ -45,7 +45,7 @@ function Add({ setClose }) {
       };
 
       await axios.post(
-        "https://food-ordering-app-ten.vercel.app//api/products",
+        "https://kookoo-app.vercel.app//api/products",
         newProduct
       );
       setClose(true);
